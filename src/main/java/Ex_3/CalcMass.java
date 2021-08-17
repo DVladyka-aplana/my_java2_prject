@@ -25,6 +25,9 @@ public class CalcMass {
         }
     }
 
+    /**
+     * Calculator
+     */
     public static void calc(){
         System.out.println("<<< Запуск калькулятора >>>");
         Scanner in = new Scanner(System.in);
@@ -101,6 +104,9 @@ public class CalcMass {
         System.out.printf("%.4f",result);
     }
 
+    /**
+     * massiv
+     */
     public static void masiv(){
         System.out.println("<Введите размер массива (количество слов): ");
         Scanner in = new Scanner(System.in);
