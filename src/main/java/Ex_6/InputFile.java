@@ -60,10 +60,7 @@ public class InputFile {
 
     public static void maxLenWord(){
         Set<String> noDubl = new HashSet<String>(MyArrayList);
-        ArrayList<String> MyArrayList1 = new ArrayList<>();
-        for (String ewords:noDubl){
-            MyArrayList1.add(ewords);
-        }
+        ArrayList<String> MyArrayList1 = new ArrayList<>(noDubl);
         int kol=0;
         int maxI=0;
         int kolMaxI=0;
